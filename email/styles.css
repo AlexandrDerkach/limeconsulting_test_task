@@ -1445,40 +1445,40 @@ html {
 
 @media screen and (max-width: 550px) {
   .pigs-text {
-    font-size: 14px;
-    bottom: 20px; }
+    font-size: 14px!important;
+    bottom: 20px!important; }
   .web-page-text {
-    font-size: 13px; } }
+    font-size: 13px!important; } }
 
 @media screen and (max-width: 450px) {
   .pigs-text {
-    font-size: 12px;
-    line-height: 16px;
-    left: 23%;
-    bottom: 10px; }
+    font-size: 12px!important;
+    line-height: 16px!important;
+    left: 23%!important;
+    bottom: 10px!important; }
   .down-text {
-    font-size: 10px;
-    line-height: 12px; } }
+    font-size: 10px!important;
+    line-height: 12px!important; } }
 
 @media screen and (max-width: 400px) {
   .pigs-text {
-    font-size: 10px;
-    line-height: 13px;
-    left: 21vmin;
-    bottom: 13px; } }
+    font-size: 10px!important;
+    line-height: 13px!important;
+    left: 21vmin!important;
+    bottom: 13px!important; } }
 
 @media screen and (max-width: 384px) {
   .pigs-text {
-    font-size: 9px;
-    line-height: 12px;
-    left: 21vmin;
-    bottom: 13px; }
+    font-size: 9px!important;
+    line-height: 12px!important;
+    left: 21vmin!important;
+    bottom: 13px!important; }
   .web-page-text {
-    font-size: 9px; } }
+    font-size: 9px!important; } }
 
 @media screen and (max-width: 320px) {
   .pigs-text {
-    font-size: 8px;
-    line-height: 11px;
-    left: 19vmin;
-    bottom: 0; } }
+    font-size: 8px!important;
+    line-height: 11px!important;
+    left: 19vmin!important;
+    bottom: 0!important; } }
