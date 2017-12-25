@@ -1,0 +1,93 @@
+body {
+	font: 500 18px/22px Arial, sans-serif;
+}
+.block{
+	display: block;
+}
+.none{
+	display: none;
+}
+
+.active{
+	display: flex;
+}
+.start-btn {
+	display: block;
+	margin: 20vh auto;
+	padding: 25px 40px;
+	color: yellow;
+	border: 2px solid red;
+	border-radius: 10px;
+	background: 0;
+	font-size: 25px;
+	cursor: pointer;
+	transition: 2s;
+}
+
+.start-btn:hover {
+	color: red;
+	border-color: yellow;
+	transition: 2s;
+}
+
+.popup {
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 40vh;
+	border: 2px solid red;
+	width: 20%;
+	padding: 100px 100px;
+	border-radius: 10px;
+}
+
+.popupfirst {
+	background-color: burlywood;
+	left: 10%;
+}
+
+.popupSec {
+	background-color: cornflowerblue;
+	border-color: darkmagenta;
+	right: 10%;
+}
+
+.popup-btn{
+	padding: 20px 30px;
+	background-color: aqua;
+	border: 0;
+	border-radius: 5px;
+}
+
+.close{
+	width: 50px;
+	height: 50px;
+	background-color: red;
+	font-size: 25px;
+	font-weight: 700;
+	color: #fff;
+	border-radius: 50%;
+	border: 2px solid #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: -20px;
+	right: -20px;
+	cursor: pointer;
+	transition:2s;
+}
+
+.close:hover{
+	border-color: red;
+	background-color: #fff;
+	color: red;
+	transition:2s;
+}
+
+.time{
+	color: #fff;
+	font-size: 50px;
+	font-family: sans-serif;
+	margin-right: 50px;
+}
